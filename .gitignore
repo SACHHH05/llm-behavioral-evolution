@@ -1,0 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Model weights and checkpoints
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.model
+checkpoints/
+models_cache/
+
+# Datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Experiment outputs
+logs/*
+experiments/results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
